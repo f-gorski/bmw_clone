@@ -1,0 +1,121 @@
+.container {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    
+    .bmw-logo {
+        position: absolute;
+        top: 20px;
+        right: 32px;
+        height: 40px;
+        width: 40px;
+        z-index: 20;
+    }
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    transition: background-image 0.2s ease-in-out;
+    background-size: cover;
+    background-position: 70%;
+    background-repeat: no-repeat;
+    position: relative;
+    object-fit: cover;
+
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: transparent linear-gradient(90deg, #000000 0%, #00000000 100%) 0% 0% no-repeat padding-box;
+        opacity: 0.75;
+    }
+}
+
+.slide1 {
+    background-image: url('../assets/slider1.png');
+}
+
+.slide2 {
+    background-image: url('../assets/slide2.jpg');
+}
+
+.slide3 {
+    background-image: url('../assets/slide3.jpg')
+}
+
+.hero__content {
+    color: $hero-font-color;
+    font-family: $font-primary;
+    margin: auto 0;
+    line-height: 64px;
+    z-index: 2;
+
+    .hero__logo {
+        height: 5.5rem;
+        width: 3rem;
+    }
+
+    .hero__header {
+        font-weight: 700;
+        font-size: 64px;
+    }
+
+    .hero__subheader {
+        font-weight: 600;
+        font-size: 16px;
+        color: $hero-subheader-color;
+    }
+}
+
+.cta {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+.cta-button {
+    width: 269px;
+    height: 46px;
+    background-color: $bmw-blue;
+    border: none;
+    font-family: $font-primary;
+    font-size: 18px;
+    font-weight: 600;
+    color: $hero-font-color;
+    margin: 0 auto 0 auto;
+    outline: 0;
+    cursor: pointer;
+}
+
+.slider-bars {
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+    .slider-bar {
+        background-color: $hero-font-color;
+        width: 60px;
+        height: 5px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $bmw-blue;
+        }
+        
+        &--active {
+            background-color: $bmw-blue;
+        }
+    }
+}
