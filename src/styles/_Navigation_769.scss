@@ -1,0 +1,43 @@
+.nav-desktop {
+    visibility: visible;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+
+    .nav__items {
+        display: flex;
+        list-style: none;
+        width: 100%;
+
+        .nav__item {
+            margin-right: 20px;
+            color: $hero-font-color;
+            font-family: $font-primary;
+            font-size: 18px;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+    }
+
+    .nav__line {
+        width: 100%;
+        border: 1px solid $hero-font-color;
+        opacity: 0.25;
+    }
+
+    .slogan {
+        color: $hero-font-color;
+        font-family: $font-primary;
+        font-weight: 500;
+        font-size: 16px;
+        margin-left: auto;
+
+        .bold {
+            font-weight: 700;
+        }
+    }
+}
