@@ -1,0 +1,36 @@
+.facts {
+    margin-top: 180px;
+    padding: 0 4%;
+    display: flex;
+
+    &__photos {
+        padding: 0;
+    }
+
+    &__content {
+        width: 100%;
+        padding-left: 7%;
+        padding-top: 0;
+    }
+
+    &__header {
+        padding: 0;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        &-element {
+            width: clamp(100px, 10vw, 191px);
+            margin: 30px 15px;
+        }
+    }
+
+    &__item {        
+        &-text {
+            font-family: $font-secondary-desktop;
+        } 
+    }
+}

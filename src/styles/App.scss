@@ -5,7 +5,9 @@
 @import './Burger';
 @import './Navigation';
 @import './Hero';
+@import './Facts';
 
 @media screen and (min-width: 769px) {
     @import './Navigation_769';
+    @import './Facts_769';
 }
