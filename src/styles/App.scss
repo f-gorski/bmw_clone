@@ -2,4 +2,10 @@
 @import './settings/colors';
 @import './settings/fonts';
 
+@import './Burger';
+@import './Navigation';
 @import './Hero';
+
+@media screen and (min-width: 769px) {
+    @import './Navigation_769';
+}
