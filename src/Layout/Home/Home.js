@@ -1,6 +1,7 @@
 import Hero from './Hero';
 import Facts from './Facts';
 import Description from './Description';
+import Gallery from './Gallery';
 
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
             <Hero />
             <Facts />
             <Description />
+            <Gallery />
         </main>
     )
 }
