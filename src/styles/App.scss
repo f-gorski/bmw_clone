@@ -6,8 +6,10 @@
 @import './Navigation';
 @import './Hero';
 @import './Facts';
+@import './Description';
 
 @media screen and (min-width: 769px) {
     @import './Navigation_769';
     @import './Facts_769';
+    @import './Description_769';
 }
