@@ -1,0 +1,96 @@
+.contact {
+    margin-top: 70px;
+    width: 100%;
+    position: relative;
+
+    &__photo-top {
+        position: absolute;
+        width: 663px;
+        z-index: -1;
+        left: 50%;
+        top: 5%;
+    }
+
+    &__photo-bottom {
+        position: absolute;
+        width: 638px;
+        z-index: -1;
+        bottom: 2%;
+        left: 0;
+        right: 50%;
+    }
+
+    &__content {
+        padding: 90px;
+        width: clamp(480px, 45%, 812px);
+        margin: 0 auto;
+        background-color: $light-color;
+        box-shadow: 3px 3px 60px #00000012;
+    }
+
+    &__header {
+        max-width: 100%;
+        margin-top: 36px;
+        font-size: 36px;
+        font-weight: 700;
+        font-family: $font-primary;
+        line-height: 40px;
+    }
+
+    &__text {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    &__form {
+        width: 100%;
+
+        .form__header {
+            margin-top: 60px;
+            font-family: $font-primary;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        .form__item {
+            margin-top: 15px;
+
+            &--submit {
+                margin: 30px 0;
+            }
+
+            &--radios {
+                margin: 30px 0;
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        .form__input--radio {
+            margin-right: 10px;
+            width: 22px;
+            height: 22px;
+        }
+
+        .form__label {
+            font-family: $font-secondary-desktop;
+            font-size: 20px;
+        }
+
+        .form__input--text {
+            height: 52px;
+            font-size: 14px;
+            padding: 16px 0 16px 22px;
+
+            &::placeholder {
+                font-size: 14px;
+            }
+        }
+
+        .form__submit {
+            width: 243px;
+            height: 63px;
+            font-size: 18px;
+        }
+    }
+}

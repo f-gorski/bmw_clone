@@ -8,10 +8,12 @@
 @import './Facts';
 @import './Description';
 @import './Gallery';
+@import './Contact';
 
 @media screen and (min-width: 769px) {
     @import './Navigation_769';
     @import './Facts_769';
     @import './Description_769';
     @import './Gallery_769';
+    @import './Contact_769';
 }
