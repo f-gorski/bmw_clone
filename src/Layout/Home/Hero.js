@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link as LinkScroll } from 'react-scroll';
+import CtaButton from '../../Components/CtaButton';
 
 const Hero = () => {
 
@@ -34,7 +35,7 @@ const Hero = () => {
                     <h2 className="hero__subheader">PIONIER NOWEJ ERY.</h2>
                 </div>
                 <div className="cta">
-                    <LinkScroll className="cta-button" smooth={true} to="contact"><button className="cta-button">UMÓW JAZDĘ PRÓBNĄ</button></LinkScroll>
+                    <CtaButton stylingName="cta-button" linkTo="contact" />
                     <div className="slider-bars">
                         <div 
                             className={slide === "slide1" ? "slider-bar slider-bar--active" : "slider-bar"} 
