@@ -36,12 +36,23 @@ const Hero = () => {
                 <div className="cta">
                     <LinkScroll className="cta-button" smooth={true} to="contact"><button className="cta-button">UMÓW JAZDĘ PRÓBNĄ</button></LinkScroll>
                     <div className="slider-bars">
-                        <div className="slider-bar" id="slide1" onClick={handleClick}></div>
-                        <div className="slider-bar" id="slide2" onClick={handleClick}></div>
-                        <div className="slider-bar" id="slide3" onClick={handleClick}></div>
+                        <div 
+                            className={slide === "slide1" ? "slider-bar slider-bar--active" : "slider-bar"} 
+                            id="slide1" 
+                            onClick={handleClick}>
+                        </div>
+                        <div 
+                            className={slide === "slide2" ? "slider-bar slider-bar--active" : "slider-bar"} 
+                            id="slide2" 
+                            onClick={handleClick}>
+                        </div>
+                        <div 
+                            className={slide === "slide3" ? "slider-bar slider-bar--active" : "slider-bar"} 
+                            id="slide3" 
+                            onClick={handleClick}>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </section>
     )
