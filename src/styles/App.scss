@@ -9,6 +9,7 @@
 @import './Description';
 @import './Gallery';
 @import './Contact';
+@import './Footer';
 
 @media screen and (min-width: 769px) {
     @import './Navigation_769';
@@ -16,4 +17,5 @@
     @import './Description_769';
     @import './Gallery_769';
     @import './Contact_769';
+    @import './Footer_769';
 }

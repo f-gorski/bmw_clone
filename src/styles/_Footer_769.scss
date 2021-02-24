@@ -1,0 +1,74 @@
+.footer {
+
+    &__container {
+        padding: 35px 12.5%;
+    }
+
+    &__content {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 120px;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    &__social {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 100%;
+        margin: 0 0 0 auto;
+
+        &-header {
+            margin: auto 0;
+        }
+
+        &-links {
+            margin: auto 0;
+        }
+    }
+
+    &__client-zone,
+    &__about,
+    &__law {
+        margin-right: 75px;
+        width: 340px;
+    }
+
+    &__client-zone {
+        margin-top: 60px;
+    }
+
+    &__link-element {
+        &--social {
+            margin-right: 0;
+            margin-left: 20px;
+
+            &:first-of-type {
+                margin-left: 30px;
+            }
+        }
+    }
+
+    &__link {
+        font-size: 12px;
+        font-family: $font-secondary-mobile;
+        font-weight: 700;
+        color: #707070;
+        text-decoration: none;
+    }
+
+    &__copyright {
+        display: flex;
+        height: 61px;
+        padding: 0 12.5%;
+
+        span {
+            margin: auto auto auto 0;
+            font-family: $font-secondary-mobile;
+            font-size: 13px;
+            font-weight: 400;
+            color: #4E4E4E;
+        }
+    }
+}
