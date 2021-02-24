@@ -1,0 +1,25 @@
+
+.cta {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.cta-button {
+    width: 269px;
+    height: 63px;
+    margin: 0 auto;
+}
+
+.slider-bars {
+    width: auto;
+    display: flex;
+    margin: 0;
+
+    .slider-bar {
+        width: 60px;
+        height: 5px;
+        margin-right: 25px;
+    }
+}
