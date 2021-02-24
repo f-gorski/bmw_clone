@@ -11,9 +11,9 @@ const Nav = () => {
                 <nav className={isOpen ? "navigation navigation--open" : "navigation"}>
                     <hr className="decoration-line" />
                     <ul className="navigation__link-list">
-                        <li className="navigation__link-item"><div><LinkScroll smooth={true} to="hero" className="navigation__link" activeClassName="navigation__link--active">NOWE BMW iX.</LinkScroll></div></li>
-                        <li className="navigation__link-item"><div><LinkScroll smooth={true}to="description" className="navigation__link" activeClassName="navigation__link--active">INNOWACYJNA AERODYNAMIKA</LinkScroll></div></li>
-                        <li className="navigation__link-item"><div><LinkScroll smooth={true} to="gallery" className="navigation__link" activeClassName="navigation__link--active">GALERIA</LinkScroll></div></li>
+                        <li className="navigation__link-item"><div><LinkScroll smooth={true} to="hero" className="navigation__link">NOWE BMW iX.</LinkScroll></div></li>
+                        <li className="navigation__link-item"><div><LinkScroll smooth={true}to="description" className="navigation__link">INNOWACYJNA AERODYNAMIKA</LinkScroll></div></li>
+                        <li className="navigation__link-item"><div><LinkScroll smooth={true} to="gallery" className="navigation__link">GALERIA</LinkScroll></div></li>
                         <button className="cta-button">UMÓW JAZDĘ PRÓBNĄ</button>
                     </ul>
                 </nav>

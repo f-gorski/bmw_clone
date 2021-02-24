@@ -15,8 +15,13 @@ const Hero = () => {
             <div className="container">
                 <div className="nav-desktop">
                     <ul className="nav__items">
-                        <li className="nav__item">Nowe BMW iX</li>
-                        <li className="nav__item">Umów jazdę próbną</li>
+                        <li className="nav__item">
+                            <LinkScroll smooth={true} to="facts">Nowe BMW iX</LinkScroll>
+                        </li>
+                        
+                        <li className="nav__item">
+                            <LinkScroll smooth={true} to="contact">Umów jazdę próbną</LinkScroll>
+                        </li>
                     </ul>
                     <hr className="nav__line" />
                     <div className="slogan"><span className="bold">Radość</span> z jazdy</div>
