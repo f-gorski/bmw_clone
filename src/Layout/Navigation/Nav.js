@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link as LinkScroll } from 'react-scroll';
 import Burger from './Burger';
+import CtaButton from '../../Components/CtaButton';
 
 const Nav = () => {
     const [isOpen, setOpen] = useState(false);
@@ -14,7 +15,7 @@ const Nav = () => {
                         <li className="navigation__link-item"><div><LinkScroll smooth={true} to="hero" className="navigation__link">NOWE BMW iX.</LinkScroll></div></li>
                         <li className="navigation__link-item"><div><LinkScroll smooth={true}to="description" className="navigation__link">INNOWACYJNA AERODYNAMIKA</LinkScroll></div></li>
                         <li className="navigation__link-item"><div><LinkScroll smooth={true} to="gallery" className="navigation__link">GALERIA</LinkScroll></div></li>
-                        <button className="cta-button">UMÓW JAZDĘ PRÓBNĄ</button>
+                        <CtaButton stylingName="cta-button" linkTo="contact" />
                     </ul>
                 </nav>
             </div>
