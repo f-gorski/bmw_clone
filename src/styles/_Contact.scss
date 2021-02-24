@@ -1,0 +1,112 @@
+.contact {
+    margin-top: 70px;
+    width: 100%;
+    overflow: hidden;
+
+    &__photo-top {
+        width: 100%;
+        position: relative;
+        right: 35%;
+    }
+
+    &__photo-bottom {
+        width: 100%;
+        position: relative;
+        left: 63%;
+    }
+
+    &__content {
+        width: 82%;
+        margin: 0 auto;
+    }
+
+    &__header {
+        margin-top: 26px;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: $font-primary;
+        line-height: 28px;
+
+        sup {
+            font-size: 18px;
+        }
+    }
+
+    &__text {
+        margin-top: 15px;
+        font-family: $font-secondary-mobile;
+        font-size: 13px;
+        font-weight: 400;
+        color: $darker-color;
+    }
+
+    &__form {
+        width: 100%;
+
+        .form__header {
+            margin-top: 60px;
+            font-family: $font-primary;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        .form__item {
+            margin-top: 15px;
+
+            &--submit {
+                margin: 30px 0;
+            }
+
+            &--radios {
+                margin: 30px 0;
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        .form__input--radio {
+            margin-right: 10px;
+            width: 24px;
+            height: 24px;
+        }
+
+        .form__label {
+            margin-right: 30px;
+            font-family: $font-secondary-mobile;
+            color: $darker-color;
+            font-size: 13px;
+        }
+
+        .form__input--text {
+            height: 40px;
+            width: 100%;
+            font-family: $font-secondary-desktop;
+            font-weight: 400;
+            font-size: 13px;
+            color: $darker-color;
+            padding: 11px 0 11px 15px;
+            outline: none;
+
+            &::placeholder {
+                font-family: $font-secondary-desktop;
+                font-weight: 400;
+                font-size: 13px;
+                color: $darker-color;
+            }
+        }
+
+        .form__submit {
+            width: 165px;
+            height: 46px;
+            background-color: $bmw-blue;
+            border: none;
+            outline: none;
+            font-family: $font-primary;
+            font-weight: 600;
+            font-size: 14px;
+            color: $hero-font-color;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    }
+}
