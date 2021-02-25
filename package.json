@@ -40,6 +40,7 @@
   "devDependencies": {
     "file-loader": "^6.2.0",
     "node-sass": "^4.14.1",
-    "react-hook-form": "^6.15.4"
+    "react-hook-form": "^6.15.4",
+    "react-modal": "^3.12.1"
   }
 }
