@@ -108,5 +108,11 @@
             text-transform: uppercase;
             cursor: pointer;
         }
+
+        .form__error-msg {
+            color: $error-color;
+            font-family: $font-primary;
+            font-size: 0.75rem;
+        }
     }
 }
